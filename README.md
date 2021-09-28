@@ -23,7 +23,7 @@ pip install snakist
 ```
 import module_has_camel
 
-module_has_camel = camelMethod() # I don't wanna use camel case
+module_has_camel.camelMethod() # I don't wanna use camel case
 
 from snakist import snake
 
